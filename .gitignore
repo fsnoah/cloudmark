@@ -1,0 +1,32 @@
+# dependencies
+node_modules
+.pnpm-store
+
+# build
+dist
+dist-extension
+.wrangler
+.dev.vars
+.open-next
+.next
+out
+
+# logs / OS
+*.log
+.DS_Store
+
+# env
+.env
+.env.*
+!.env.example
+
+# typescript
+*.tsbuildinfo
+
+# IDE
+.idea
+.vscode/*
+!.vscode/settings.json
+
+# Agents
+.claude/
